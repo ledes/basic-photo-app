@@ -1,0 +1,34 @@
+ToDo:
+
+1-User routes: only sign in routes/admin. No sign up, no users, no user, no delete users.
+2-Menu: entries, categories, projects, contact/about
+3-Footer: @copyright
+2-Contact page: for now without contact form
+3-landing-page -> Index blog entries
+4- entries, create, delete, edit, new, update. Validation admin. Rest: index, show.
+Attribute for visible in entries index.
+(so I can upload pictures without making a visible entry in blog. )
+4.2 projects. INDEX/show. admin->new, create, edit, update, delete.
+4.3 Categories, INDEX/show. admin->new, create, edit, update, delete.
+6- Responsive, phone
+7- Projects
+8-> images. A project has images, an entry has images. max-width 2000 height auto. width 100%
+9-> an entry can be: project or entry
+10-> I can edit the way images are sorted in projects.
+11 -> Pagination for entries. 10 limit. previous and next buttons.
+
+Tables:
+-Entries
+-Images
+-Projects
+-project_images
+-Entries_images
+-Users
+-categories (implementation for future)
+-categories-entry
+
+Images attributes: id, project_id, Entry_id, flickr_link, exif.
+
+Entry attr: id, name, description. timestamp, categories
+project attr: id, name, description.
+categories: id, name.
